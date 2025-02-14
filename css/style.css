@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5px 30px;
+  background-color: rgb(240, 255, 249);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  /* height: 2%; */
+}
+
+.search {
+  color: rgb(36, 197, 89);
+}
+
+.logo {
+  border-radius: 50%;
+  border: 1cm;
+}
+
+.navright {
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+}
+
+.navlinks {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  text-transform: uppercase;
+}
+
+.hero {
+  background-image: url(../img/waterfall.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero-overlay {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+  background-color: rgba(0, 0, 0, 0.216);
+}
+
+.hero h1 {
+  font-size: 4rem;
+  color: white;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.hero-buttons :first-child {
+  background-color: rgb(203, 241, 226);
+  padding: 10px 20px;
+  color: rgb(15, 136, 31);
+  font-size: 1rem;
+  text-transform: uppercase;
+  border: none;
+  margin-right: 20px;
+}
+
+.hero-buttons :nth-child(2) {
+  background-color: rgba(60, 122, 81, 0.096);
+  padding: 6px 20px;
+  color: rgb(247, 239, 230);
+  font-size: 1rem;
+  text-transform: uppercase;
+  border-width: 4px;
+  border-color: rgb(252, 252, 252);
+  border-style: solid;
+}
+
+.page-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+  height: 100vh;
+}
+
+.laptop img {
+  width: 600px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  padding: 100px;
+}
+
+.info button {
+  height: 50px;
+  width: 200px;
+  background-color: rgb(203, 241, 226);
+  padding: 10px 20px;
+  border-radius: 2%;
+  color: rgb(15, 136, 31);
+  font-size: 1rem;
+  text-transform: uppercase;
+  border: none;
+  margin-right: 20px;
+}
+
+.info h3 {
+  font-size: xx-large;
+}
+
+.info p {
+  text-wrap: wrap;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: rgb(37, 153, 114);
+}
+
+.page-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 5rem;
+}
+
+.pg3-laptop img {
+  width: 600px;
+}
+
+.pg3-info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  padding: 3rem;
+}
+
+.pg3-info button {
+  height: 50px;
+  width: 200px;
+  background-color: rgb(203, 241, 226);
+  padding: 10px 20px;
+  border-radius: 2%;
+  color: rgb(15, 136, 31);
+  font-size: 1rem;
+  text-transform: uppercase;
+  border: none;
+  margin-right: 20px;
+}
+
+.pg3-info h3 {
+  font-size: xx-large;
+}
+
+.pg3-info p {
+  text-wrap: wrap;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: rgb(37, 153, 114);
+}
+
+.page-4 {
+  background-image: url(../img/waterfall.jpg);
+  height: 60vh;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.pg4-overlay {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+  background-color: rgba(0, 0, 0, 0.158);
+}
+
+.page-4 h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 4rem;
+  color: white;
+}
+
+.page-4 p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1rem;
+  color: white;
+  text-wrap: wrap;
+  text-align: center;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.page-4 button {
+  background-color: rgba(35, 134, 48, 0.788);
+  padding: 10px 20px;
+  width: 10rem;
+  font-family: cursive;
+  font-size: 1rem;
+  text-transform: uppercase;
+  border: none;
+  margin-right: 20px;
+}
+
+.page-5 {
+  height: 100vh;
+}
+
+.pg5-overlay {
+  height: 100%;
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+  background-color: rgba(0, 0, 0, 0.158);
+}
+.page-5 h1 {
+  font-size: 4rem;
+}
+
+.page-5 p {
+  font-size: 1rem;
+  color: white;
+  text-wrap: wrap;
+  text-align: center;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.page-5 button {
+  background-color: rgba(35, 134, 48, 0.788);
+  padding: 10px 20px;
+  width: 10rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  border: none;
+  margin-right: 20px;
+}
